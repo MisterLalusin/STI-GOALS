@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/style_home001"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="pro.gr.ams.stigoals.refresh002"
+    android:background="@raw/home_background001">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"
+        app:srcCompat="@raw/home_logo001"
+        android:id="@+id/home_logo001"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="14dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gotoaboutdevelopers001"
+        android:minWidth="230dip"
+        android:minHeight="140dip"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_alignTop="@+id/home_logo001"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:layout_width="280dip"
+        android:layout_height="60dp"
+        android:id="@+id/gototrivias001"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_below="@+id/gotointroduction001"
+        android:layout_alignStart="@+id/gotostihymn001"
+        android:layout_marginTop="12dp"
+        android:background="@raw/introduction_button002"/>
+
+    <Button
+        android:layout_width="280dip"
+        android:layout_height="60dp"
+        android:id="@+id/gotoexit001"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/gotostihymn001"
+        android:layout_alignStart="@+id/gotointroduction001"
+        android:background="@raw/introduction_button004"
+        />
+
+    <Button
+        android:layout_width="280dip"
+        android:layout_height="60dp"
+        android:id="@+id/gotostihymn001"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_below="@+id/gototrivias001"
+        android:layout_alignStart="@+id/gotoexit001"
+        android:layout_marginTop="12dp"
+        android:background="@raw/introduction_button003"
+        />
+
+    <Button
+        android:layout_width="280dip"
+        android:layout_height="60dp"
+        android:layout_marginTop="18dp"
+        android:id="@+id/gotointroduction001"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:background="@raw/introduction_button001"
+        android:layout_below="@+id/home_logo001"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

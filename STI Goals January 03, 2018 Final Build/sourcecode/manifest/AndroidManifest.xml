@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pro.gr.ams.stigoals"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="25" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@raw/icon001"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="pro.gr.ams.stigoals.loading001"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="pro.gr.ams.stigoals.home001"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="pro.gr.ams.stigoals.aboutdevelopers001"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="pro.gr.ams.stigoals.aboutdevelopers002"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="pro.gr.ams.stigoals.aboutdevelopers003"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="pro.gr.ams.stigoals.aboutdevelopers004"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="pro.gr.ams.stigoals.refresh001"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="pro.gr.ams.stigoals.refresh002"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="pro.gr.ams.stigoals.stihym001"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="pro.gr.ams.stigoals.stihymn"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="pro.gr.ams.stigoals.stihymn001"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="pro.gr.ams.stigoals.introduction001"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="pro.gr.ams.stigoals.trivias001"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="pro.gr.ams.stigoals.trivias002"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="pro.gr.ams.stigoals.trivias_002"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>
